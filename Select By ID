@@ -1,0 +1,10 @@
+//soruda ildeki 1661 id numarayı çağırmamız isteniyor
+Query all columns for a city in CITY with the ID 1661.
+The CITY table is described as follows:
+
+//tabloyu şu şekilde yazdım field ve type aynı hiada başlık şekilde düşünebilirsiniz
+//field = id,name,countrycode,district,population
+//type= number,varchar2(17),varchar2(3),varchar(20),number
+
+//cevap
+ select * from CITY where ID=1661;
